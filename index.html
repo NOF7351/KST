@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КСТ | Коля Съел Телефон</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- В head после других скриптов -->
+    <script src="components/news.js"></script>
+</head>
+
+<div class="modal fade" id="exampleModalWithImage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Магазин товаров "Коля Съел Телефон"</h5>
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body row g-0">
+                <!-- Левый столбец для фотографии -->
+                <div class="col-md-6 p-0">
+                    <img src="https://raw.githubusercontent.com/NOF7351/KST/refs/heads/main/Resourses/1.png" alt="Фотография"
+                        class="w-100 h-auto d-block img-thumbnail" />
+                </div>
+
+                <!-- Правый столбец для текста -->
+                <div class="col-md-6 px-4 py-3">
+                    <p>    Магазин товаров "Коля Съел Телефон" - это магазин с лучшими и качественными товарами, напечатанными на 3D-принтере.</p>
+                    <p> </p>
+                    <p>    В этом магазине можно не только покупать, но и продавать. Для этого нужно пройти небольшой опрос.</p>
+                    <p> </p>
+                    <p>    Если у вас вдруг возникнут вопросы по покупке/магазину, то есть поддержка, которой вы можете написать в любое время.</p>
+                    <p>👉<a href="https://nof7351.github.io/Kolia-Ate-Phone-Shop/">Ссылка</a>👈</p>
+                </div>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <video autoplay muted loop class="absolute z-0 w-auto min-w-full min-h-full max-w-none">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-digital-grid-5385-large.mp4"
+                type="video/mp4">
+        </video>
+
+        <div class="z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 animate-fadeIn">Коля Съел Телефон</h1>
+            <p class="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto animate-fadeIn delay-100">...</p>
+            <a href="#about"
+                class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 animate-bounce">
+                Узнать больше
+            </a>
+        </div>
+
+        <div class="absolute bottom-10 left-0 right-0 flex justify-center animate-bounce">
+            <i data-feather="chevron-down" class="text-white w-10 h-10"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">О проектах</h2>
+
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                
+                <div class="md:w-1/2">
+                    <h3 class="text-3xl font-bold mb-6 text-gray-800">О себе</h3>
+                    <p class="text-lg text-gray-600 mb-6">Все проекты, которые на данный момент я создал, сделаны мной,
+                        а проверены моими друзьями :) </p>
+                    <p class="text-lg text-gray-600 mb-8">Этот сайт по сути создан по фану, но возможно, это может быть
+                        станет огромадной компанией. И вы смело сможете сказать: "Я был тут с самого начала". </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-amber-100 text-amber-800 px-4 py-2 rounded-full flex items-center">
+                            <i data-feather="activity" class="mr-2"></i> Активность
+                        </div>
+
+                        <div class="bg-amber-100 text-amber-800 px-4 py-2 rounded-full flex items-center">
+                            <i data-feather="heart" class="mr-2"></i> Страсть
+                        </div>
+                        <div class="bg-amber-100 text-amber-800 px-4 py-2 rounded-full flex items-center">
+                            <i data-feather="code" class="mr-2"></i> Открытость
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Проекты</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <button type="button" class="btn btn-body" data-bs-toggle="modal" data-bs-target="#exampleModalWithImage">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <div class="h-48 overflow-hidden">
+                            <img src="https://raw.githubusercontent.com/NOF7351/KST/refs/heads/main/Resourses/1.png" alt="Проект 1"
+                                class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-gray-800">Магазин товаров "Коля Съел Телефон"</h3>
+                            <p class="text-gray-600 mb-4">Магазин с товарами, напечатанными на 3D принтере</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-amber-600 font-medium">Начало работы сайта: 14 ноября, 2025
+                                    год</span>
+                                <a href="#projects" class="text-amber-500 hover:text-amber-600 flex items-center">
+                                    Подробнее <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <!-- Project 2 -->
+                <div
+                    class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+                    <div class="h-48 overflow-hidden">
+                        <img src="." alt="Проект 2"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3 text-gray-800">KST Tools</h3>
+                        <p class="text-gray-600 mb-4">Сайт с полезными инструментами</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-amber-600 font-medium">Начало работы сайта: Уже скоро...</span>
+                            <a href="#" class="text-amber-500 hover:text-amber-600 flex items-center">
+                                Подробнее <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div
+                    class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+                    <div class="h-48 overflow-hidden">
+                        <img src="." alt="Проект 3"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3 text-gray-800">Уже скоро...</h3>
+                        <p class="text-gray-600 mb-4">...</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-amber-600 font-medium">Начало работы сайта: Уже скоро...</span>
+                            <a href="#" class="text-amber-500 hover:text-amber-600 flex items-center">
+                                Подробнее <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#"
+                    class="inline-flex items-center px-6 py-3 border border-amber-500 text-amber-500 rounded-full hover:bg-amber-500 hover:text-white transition-all duration-300">
+                    Все проекты
+                    <i data-feather="chevron-right" class="ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- News Section -->
+    <section id="news" class="py-20">
+        <news-section></news-section>
+    </section>
+    <custom-footer></custom-footer>
+    <script>
+        feather.replace();
+
+        // Simple animation on scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-fadeInUp');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('#about, #projects').forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
