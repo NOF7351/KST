@@ -14,6 +14,13 @@ class NewsSection extends HTMLElement {
                 text: "Спасибо дипсику за код для новостей :)",
                 image: "."
             }
+            {
+  id: 2,
+  title: "Уже скоро...",
+  date: "2 января, 2026",
+  text: "Я уже готовлю сайт с инструментами - KST Tools. Например, сейчас уже готов супер простой медиаплеер. Для тех, кто хочет попробовать - вот ссылка: https://nof7351.github.io/KST-Tools/SuperSimpleMediaPlayer/SuperSimpleMediaPlayer",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo5CCs2bmRfzBkBwdLvMNKtbiVhUMKqR3THQ&s"
+}
         ];
 
         // Фильтруем только валидные новости
@@ -268,4 +275,5 @@ window.NewsManager = {
             newsSection.loadMoreNews();
         }
     }
+
 };
