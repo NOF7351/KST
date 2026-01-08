@@ -24,6 +24,13 @@ class NewsSection extends HTMLElement {
     // ============================================
     this.allNewsData = [
       {
+        id: 3,
+        title: "УЖЕ СКОРО!",
+        date: "8 января, 2026",
+        text: "Совсем скоро выйдет обновление на сайте KST-Tools! В нём будет добавлено: Калькулятор ИМТ, Генератор паролей и Анализатор текста. Подробнее вы можете узнать на сайте KST-Tools 👉 https://nof7351.github.io/KST-Tools/\n ",
+        image: "https://raw.githubusercontent.com/NOF7351/KST/refs/heads/main/Resourses/UpdatePictures/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0(1).png"
+      }
+      {
         id: 2,
         title: "Привет №2",
         date: "2 января, 2026",
@@ -282,3 +289,4 @@ class NewsSection extends HTMLElement {
 }
 
 customElements.define('news-section', NewsSection);
+
